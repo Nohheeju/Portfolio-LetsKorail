@@ -1,0 +1,410 @@
+@media screen and (max-width: 1678px) {
+  .nav .lnb .menu {
+    flex: 1;
+  }
+  .nav .lnb .menu li {
+    flex: 1;
+    padding: 0;
+  }
+  .nav .lnb .menu > li > a {
+  }
+  .nav .lnb .menu li.line::before {
+    display: none;
+  }
+  .siteMap {
+    margin: 25px 10px;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  .inner {
+    width: 1300px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .inner {
+    width: 100%;
+  }
+  .footer_link {
+    padding: 60px 0px 20px;
+  }
+  .footer_link ul li:nth-child(1)::before {
+    display: none;
+  }
+  .footer_link ul li:nth-child(1) {
+    margin-top: 5px;
+  }
+  .korail_itemBest_slide_wrap .swiper-button-next {
+    right: 0;
+  }
+  .korail_itemBest_slide_wrap .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 70px;
+    height: 70px;
+  }
+  .korail_itemBest_slide_wrap .swiper-button-next:after,
+  .korail_itemBest_slide_wrap .swiper-button-prev:after {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body.active {
+    overflow-y: hidden;
+  }
+  header {
+    position: relative;
+    height: 100%;
+  }
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2500px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    transition: 0.2s;
+  }
+  header.active::before {
+    display: block;
+  }
+  .sub {
+    justify-content: flex-start;
+    background-color: var(--main-color);
+    position: absolute;
+    right: -1200px;
+    width: 90%;
+    height: 100%;
+    transition: 0.3s;
+  }
+  .sub.active {
+    right: -150px;
+  }
+  .sub select {
+    background-color: var(--main-color);
+    color: #fff;
+  }
+  .sub ul li a {
+    font-weight: 600;
+  }
+  .nav .logo {
+    padding: 0 20px;
+    height: 80px;
+  }
+  .nav .logo a .logo_img {
+    background: url(../img/logo_movile.svg) no-repeat;
+    background-position: center;
+    width: 185px;
+  }
+  .nav .lnb .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: -1200px;
+    width: 90%;
+    height: 600px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    z-index: 1;
+    transition: 0.3s;
+    overflow-x: hidden;
+  }
+  .nav .lnb .menu.active {
+    right: -150px;
+  }
+  .nav .lnb .menu::before {
+    content: "";
+    position: absolute;
+    right: 60%;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.12);
+    z-index: 10;
+  }
+  .nav .lnb .menu li {
+    display: flex;
+  }
+  .nav .lnb .menu > li > a {
+    display: block;
+    width: 40%;
+    height: 80px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 10px;
+  }
+  .nav .lnb .menu > li > a:hover {
+    color: var(--main-color);
+  }
+  .nav .lnb .menu > li > a.active {
+    background-color: var(--main-color);
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    width: 41%;
+    z-index: 10;
+  }
+  .nav .lnb .menu > li > a::before {
+    display: none;
+  }
+  .nav .lnb .menu li.line::before {
+    display: none;
+  }
+  .nav .lnb .menu li .sub_menu::before {
+    display: none;
+  }
+  .nav .lnb .menu li .sub_menu {
+    display: none;
+  }
+  .subMenu {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    display: block;
+  }
+  .subMenu ul {
+    display: none;
+    padding: 10px;
+  }
+  .subMenu ul:nth-child(1) {
+    display: block;
+  }
+  .subMenu ul li {
+  }
+  .subMenu ul li a {
+    border-bottom: 1px solid #d9d9d9;
+    display: block;
+    width: 35%;
+    padding: 25px 0;
+  }
+  .subMenu ul li a:hover {
+    color: var(--main-color);
+    font-weight: 700;
+  }
+  .siteMap_btn.one {
+    display: none;
+  }
+  .siteMap_btn.two {
+    display: block;
+  }
+  .siteMap {
+    margin: 0 20px;
+    position: absolute;
+    top: 28px;
+    right: 0;
+  }
+  .siteMap_btn > a {
+    width: 35px;
+    height: 20px;
+  }
+  .siteMap_btn > a > span {
+    background-color: #000;
+    width: 80%;
+    height: 3px;
+    border-radius: 50px;
+  }
+
+  /* quick_menu */
+  .quick_menu_wrap > .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .quick_menu_iconBox {
+    width: 600px;
+    flex-wrap: wrap;
+  }
+
+  /* korail_news */
+  .korail_news.inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .korail_news.inner > div {
+    width: 80%;
+  }
+
+  /* korail_itemTravel */
+  .korail_itemTravel_con_box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .korail_itemTravel_con_box {
+    flex-direction: column-reverse;
+  }
+  .korail_itemTravel_con_box:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .itemTravel_textBox h5 {
+    margin: 30px 0;
+  }
+  .itemTravel_textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* korail_itemBest */
+  .swiper.itemBest {
+    height: 1000px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .swiper.itemBest .swiper-wrapper .swiper-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper.itemBest .swiper-wrapper .swiper-slide .swiper-slide_box {
+    width: 300px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  /* korail_sns */
+  .korail_sns_con_warp {
+    flex-direction: column;
+  }
+  .korail_sns_con {
+    width: 50%;
+  }
+  .korail_sns_con.icon {
+    width: 50%;
+  }
+
+  /* footer */
+  .footer_link ul {
+    flex-wrap: wrap;
+  }
+  .footer_link {
+    padding: 50px;
+  }
+  footer::before {
+    top: 150px;
+  }
+  .footer_info {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_address ul li {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_info_right .familysite {
+    justify-content: center;
+  }
+  .footer_info_right .certification img {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* visual */
+  .visual {
+    height: 100%;
+    justify-content: center;
+  }
+  .ticketing_wrap {
+    width: 90%;
+    margin: 20px;
+  }
+  .ticketing_tap > li {
+    width: 100%;
+  }
+  .ticketing_tap > li > a {
+    border-radius: 1px;
+    padding: 20px 0;
+  }
+  .ticketing_tap > li:nth-child(1) > a {
+    border-radius: 30px 0 0 0;
+  }
+  .ticketing_tap > li:nth-child(4) > a {
+    border-radius: 0px 30px 0px 0px;
+  }
+
+  #ticket_reservation .res_top {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  #ticket_reservation .res_bottom {
+    flex-direction: column;
+  }
+  .ticket_option {
+    margin: 0;
+  }
+  .ticket_option_content fieldset {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #ticket_check {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #ticket_check .check_right button {
+    width: 100%;
+  }
+  #ticket_check .check_left {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sub.active {
+    right: 0px;
+  }
+  .nav .lnb .menu.active {
+    right: 0px;
+  }
+  .quick_menu_iconBox {
+    width: 100%;
+  }
+  .korail_news.inner > div {
+    width: 97%;
+  }
+  .itemTravel_imgBox img {
+    width: 100%;
+  }
+  .swiper.itemBest {
+    height: 100%;
+    width: 100%;
+  }
+  .swiper.itemBest .swiper-wrapper .swiper-slide {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    place-items: center;
+    padding-bottom: 2rem;
+  }
+  .swiper.itemBest .swiper-pagination {
+    width: 90%;
+  }
+  .korail_sns_con {
+    width: 90%;
+  }
+  .korail_sns_con.icon {
+    width: 90%;
+  }
+  .footer_link {
+    padding: 1rem;
+  }
+  footer::before {
+    top: 120px;
+  }
+}
