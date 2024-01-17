@@ -165,6 +165,7 @@ body {
 }
 .wrap {
   max-width: 1980px;
+  overflow-x: hidden;
 }
 .inner {
   width: 1400px;
