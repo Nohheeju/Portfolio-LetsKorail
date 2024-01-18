@@ -1,4 +1,7 @@
 @media screen and (max-width: 1678px) {
+   html {
+    overflow-x: hidden;
+  }
   .nav .lnb .menu {
     flex: 1;
   }
