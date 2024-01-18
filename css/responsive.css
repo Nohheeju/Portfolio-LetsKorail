@@ -384,9 +384,6 @@
   .sub ul li a {
     font-size: 0.8rem;
   }
-  .nav .lnb .menu {
-    width: 100%;
-  }
   .nav .lnb .menu.active {
     right: 0px;
   }
