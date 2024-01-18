@@ -243,30 +243,31 @@
   }
 }
 @media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   .sub.active {
     right: 0px;
+  }
+  .sub ul li {
+    margin: 10px;
+  }
+  .sub ul li.line::before {
+    display: none;
+  }
+  .sub ul li a {
+    font-size: 0.8rem;
   }
   .nav .lnb .menu.active {
     right: 0px;
   }
-  .quick_menu_iconBox {
-    width: 100%;
+  .nav .lnb .menu > li > a {
+    font-size: 1rem;
+    padding-left: 5px;
   }
-  .itemTravel_imgBox img {
-    width: 100%;
-  }
-  .swiper.itemBest {
-    height: 100%;
-    width: 100%;
-  }
-  .swiper.itemBest .swiper-wrapper .swiper-slide {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    place-items: center;
-    padding-bottom: 2rem;
-  }
-  .swiper.itemBest .swiper-pagination {
-    width: 90%;
+  .siteMap {
+    margin: 0;
   }
   .korail_sns_con {
     width: 90%;
@@ -301,5 +302,10 @@
   }
   footer::before {
     top: 120px;
+  }
+}
+@media screen and (max-width: 490px) {
+  footer::before {
+    top: 170px;
   }
 }
