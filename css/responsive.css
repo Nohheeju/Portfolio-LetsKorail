@@ -375,8 +375,27 @@
   .sub.active {
     right: 0px;
   }
+  .sub ul li {
+    margin: 10px;
+  }
+  .sub ul li.line::before {
+    display: none;
+  }
+  .sub ul li a {
+    font-size: 0.8rem;
+  }
+  .nav .lnb .menu {
+    width: 100%;
+  }
   .nav .lnb .menu.active {
     right: 0px;
+  }
+  .nav .lnb .menu > li > a {
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  .siteMap {
+    margin: 0;
   }
   .quick_menu_iconBox {
     width: 100%;
@@ -418,9 +437,41 @@
     width: 100%;
   }
   .ticketing_tap > li > a {
+    font-size: 0.9rem;
+  }
+  .ticket_option li a {
     font-size: 1rem;
   }
+  .ticketing_tap_content > div {
+    padding: 5px;
+  }
+  .newsEvent_content_title strong {
+    width: 40px;
+    font-size: 0.8rem;
+  }
+  .newsEvent_content_title p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    width: 50%;
+  }
   .itemTravel_textBox h3 {
-    font-size: 25px;
+    font-size: 3rem;
+  }
+  .korail_sns_con.blog {
+    padding: 1rem;
+  }
+  .korail_sns_con.blog h5 {
+    font-size: 1.2rem;
+  }
+  footer::before {
+    top: 170px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .ticketing_tap > li > a {
+    font-size: 0.8rem;
   }
 }
