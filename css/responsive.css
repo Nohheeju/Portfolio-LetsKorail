@@ -413,3 +413,14 @@
     top: 120px;
   }
 }
+@media screen and (max-width: 400px) {
+  .sub {
+    width: 100%;
+  }
+  .ticketing_tap > li > a {
+    font-size: 1rem;
+  }
+  .itemTravel_textBox h3 {
+    font-size: 25px;
+  }
+}
