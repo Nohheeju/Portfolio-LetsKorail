@@ -433,9 +433,6 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .sub {
-    width: 100%;
-  }
   .ticketing_tap > li > a {
     font-size: 0.9rem;
   }
