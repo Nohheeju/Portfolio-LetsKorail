@@ -22,6 +22,23 @@ header {
   position: relative;
   margin: 0 20px;
 }
+.sub ul li .btn-login {
+  position: relative;
+}
+.sub ul li .btn-login::before {
+  content: "";
+  position: absolute;
+  background: url(../img/cursor_click-white.svg) no-repeat center center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  right: -15px;
+  bottom: -15px;
+  animation: cursor-point 0.8s;
+}
+.sub ul li .btn-login:hover::before {
+  opacity: 0;
+}
 .sub ul li.line::before {
   content: "";
   position: absolute;
@@ -105,6 +122,30 @@ header {
   background-color: var(--main-color);
   transition: 0.3s;
 }
+.nav .lnb .menu > li:hover > a:after {
+  display: none;
+}
+.nav .lnb .menu > li:nth-child(3) > a:after {
+  content: "";
+  position: absolute;
+  background: url(../img/cursor.svg) no-repeat center center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  right: -20px;
+  bottom: 0px;
+  animation: cursur 1s;
+}
+@keyframes cursur {
+  0% {
+    opacity: 1;
+    transform: translate(10px, 30px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
 .nav .lnb .menu li .sub_menu {
   display: flex;
   flex-direction: column;
@@ -129,7 +170,34 @@ header {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  position: relative;
 }
+.nav .lnb .menu li:nth-child(3) .sub_menu a.menu-notice::before {
+  content: "";
+  position: absolute;
+  background: url(../img/cursor_click.svg) no-repeat center center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  right: 100px;
+  bottom: 10px;
+  animation: 1.5s cursor-point infinite;
+}
+@keyframes cursor-point {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .nav .lnb .menu li .sub_menu a:hover {
   background-color: #d9d9d9;
   color: var(--main-color);
