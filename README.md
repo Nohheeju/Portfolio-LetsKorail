@@ -1,4 +1,4 @@
-<div align= "center">
+<div>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&text=LetsKorail%20Renewal&animation=fadeIn&fontColor=000000&fontSize=60" />
 </div>
 
@@ -21,16 +21,27 @@
   <p>의미없는, 중복되는 탭 제거</p>
   <p>코레일 디자인 가이드 색상과 폰트로 변경</p>
   <p>폰트사이즈 조절과 가독성 개선</p>
+<br>
+
+- 제작기간 : 23.12.25 ~ 24.01.19
 
 ## ⚙ 개발환경
 
-####   :star: 개발 환경
+####  ✨  개발 환경
 <img src="https://img.shields.io/badge/Windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 
-####   :star: 개발에 사용된 프로그램
+####   ✨ 개발에 사용된 프로그램
 <img src="https://img.shields.io/badge/VS_code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white"/> <img src="https://img.shields.io/badge/Adobe_photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/>
 
-####   :star: 개발 언어
+####   ✨ 개발 언어
 <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/swiper-6332F6?style=flat-square&logo=swiper&logoColor=white"/> 
 
 ## 페이지 구성 및 기능
+
+- Header
+- Main visual
+- Section Quick_menu
+- Section Korail_news
+- 
+
+
