@@ -107,7 +107,7 @@
     top: 80px;
     right: -1200px;
     width: 90%;
-    height: 600px;
+    height: 100vh;
     background-color: #fff;
     box-sizing: border-box;
     display: flex;
@@ -154,6 +154,10 @@
   .nav .lnb .menu > li > a::before {
     display: none;
   }
+  .nav .lnb .menu > li:nth-child(3) > a:after {
+    right: 290px;
+    bottom: 10px;
+  }
   .nav .lnb .menu li.line::before {
     display: none;
   }
@@ -193,6 +197,41 @@
   }
   .siteMap_btn.two {
     display: block;
+    position: relative;
+  }
+  .siteMap_btn.two::after {
+    content: "";
+    position: absolute;
+    background: url(../img/cursor_click.svg) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    animation: cursor-point 0.8s;
+    right: -10px;
+    bottom: -25px;
+  }
+  .nav .lnb .menu > li:nth-child(3) > a:after {
+    right: 100px;
+    animation: cursor-point 0.8s;
+    background: url(../img/cursor_click.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+  .subMenu ul li .menu-notice {
+    position: relative;
+  }
+  .subMenu ul li .menu-notice::after {
+    content: "";
+    position: absolute;
+    background: url(../img/cursor_click.svg) no-repeat center center;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    left: 70px;
+    bottom: 10px;
+    animation: cursor-point 0.8s;
+  }
+  .subMenu ul li .menu-notice:hover::after {
+    display: none;
   }
   .siteMap {
     margin: 0 20px;
@@ -371,7 +410,6 @@
   body {
     overflow-x: hidden;
     width: 100%;
-    border: 1px solid #000;
   }
   .sub.active {
     right: 0px;
@@ -408,6 +446,7 @@
     font-size: 55px;
     margin: 15px 0 15px 0;
   }
+
   .swiper.itemBest {
     height: 100%;
     width: 100%;
