@@ -38,7 +38,6 @@
 
 ## 페이지 구성 및 기능
 
-- Header
 - Main visual
 - Section Quick_menu
 - Section Korail_news
