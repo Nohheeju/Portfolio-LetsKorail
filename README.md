@@ -5,10 +5,26 @@
 <br>
 
 ## 📌 목차
-1. 프로젝트 소개
-2. 개발환경
-3. 페이지 구성 및 기능
-4. 링크
+1. 호스팅
+2. 산출물
+3. 프로젝트 소개
+4. 개발환경
+5. 페이지 구성 및 기능
+
+<br>
+
+## 호스팅
+
+### ✨ [메인페이지](https://nohheeju.github.io/Portfolio-LetsKorail/index.html)
+### ✨ [서브페이지-공지사항](https://nohheeju.github.io/Portfolio-LetsKorail/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%20%EB%A6%AC%EB%89%B4%EC%96%BC(%EB%A0%88%EC%B8%A0%20%EC%BD%94%EB%A0%88%EC%9D%BC)-%EC%84%9C%EB%B8%8C%ED%8E%98%EC%9D%B4%EC%A7%80/index.html)
+
+<br>
+
+## 산출물
+
+#### 🔗 [브레인스토밍](https://www.figma.com/file/XWgVIjAQqnAr36jl1kRLGk/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EC%84%9C%EC%B9%98-%EB%B0%8F-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EB%B0%9C%EC%83%81?type=whiteboard&node-id=0%3A1&t=mKgqkS7X9UgNNF5g-1)
+#### 🔗 [와이어프레임 및 디자인](https://www.figma.com/file/26vDQeFz5yqF57lfCnImcP/%EB%85%B8%ED%9D%AC%EC%A3%BC_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?type=design&mode=design)
+#### 🔗 [기획서](https://docs.google.com/presentation/d/1JpEptYAKkBtC3qO90mdKiSOr25vrfOKXxBL6hVq0znk/edit?usp=sharing)
 
 <br>
 
@@ -105,11 +121,12 @@
 
 | Notice                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![Login-modal](https://github.com/Nohheeju/Portfolio-LetsKorail/assets/152961667/726b7c6c-b8d6-4bdd-969f-0c675ffc06fb) |
+| ![Notice](https://github.com/Nohheeju/Portfolio-LetsKorail/assets/152961667/2a3978f9-463e-4804-8e5d-85833015eaf2) |
 
-| 로그인 클릭시 로그인화면이 나타나고 background는 흐려진다. <br>
-| x버튼 클릭시 로그인화면은 사라지고 메인화면이 background는 맑아진다.
+| 테이블을 사용하여 표를 작성하였고, border-collaps을 사용하여 선을 없애주었음. <br>
+| 공지사항탭과, 이벤트탭으로 나누어 각 탭을 클릭시에 해당 테이블로 변경되도록 하였음. <br>
+| 10개씩 나누어 3개의 페이지로 구성하였고, 각 번호 클릭시 해당 페이지로 이동하도록 하였음.
 
 <br>
 
-
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&animation=fadeIn&fontColor=000000&fontSize=60)
