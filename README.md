@@ -39,8 +39,12 @@
 ## 페이지 구성 및 기능
 
 - Main visual
+- Login-modal
 - Section Quick_menu
 - Section Korail_news
-- 
+- Section itemTravel
+- Section itemBest
+- Section Korail_sns
+- Section Korail_sns
 
 
