@@ -15,7 +15,12 @@
 
 ## 호스팅
 
-### ✨ [메인페이지](https://nohheeju.github.io/Portfolio-LetsKorail/index.html){:target="_blank"}
+
+
+
+
+
+### ✨ <a href="https://nohheeju.github.io/Portfolio-LetsKorail/index.html" target="_blank">메인페이지</a>
 ### ✨ [서브페이지-공지사항](https://nohheeju.github.io/Portfolio-LetsKorail/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%20%EB%A6%AC%EB%89%B4%EC%96%BC(%EB%A0%88%EC%B8%A0%20%EC%BD%94%EB%A0%88%EC%9D%BC)-%EC%84%9C%EB%B8%8C%ED%8E%98%EC%9D%B4%EC%A7%80/index.html)
 
 <br>
