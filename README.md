@@ -1,5 +1,5 @@
 <div>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&text=LetsKorail%20Renewal&animation=fadeIn&fontColor=000000&fontSize=60" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&text=LetsKorail%20Renewal&animation=fadeIn&fontColor=4B89DC&fontSize=60" />
 </div>
 
 <br>
